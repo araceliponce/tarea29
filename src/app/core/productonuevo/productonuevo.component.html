@@ -1,21 +1,20 @@
-<h1 mat-dialog-title>Editando producto {{data.n_orden}}</h1>
+<p mat-dialog-title>Editando producto {{data.n_orden}}</p>
 
 <div mat-dialog-content>
-  <!-- <p>¿Cuál es tu deporte favorito?</p> -->
-  <mat-form-field appearance="outline">
+  <mat-form-field appearance="outline" floatLabel="always">
     <mat-label>Nombre</mat-label>
     <input matInput [(ngModel)]="data.nombre">
   </mat-form-field>
-  <mat-form-field appearance="outline">
+  <mat-form-field appearance="outline" floatLabel="always">
     <mat-label>Código</mat-label>
     <input matInput [(ngModel)]="data.codigo">
   </mat-form-field>
   <mat-form-field appearance="outline">
     <mat-label>Precio</mat-label>
-    <input matInput [(ngModel)]="data.precio" type="number">
+    <input matInput [(ngModel)]="data.precio" type="number" step="5">
   </mat-form-field>
   <mat-form-field appearance="outline">
-    <mat-label>Tiene descuento?</mat-label>
+    <mat-label>¿Tiene descuento?</mat-label>
     <input matInput [(ngModel)]="data.descuento">
   </mat-form-field>
 </div>
@@ -33,7 +32,7 @@
   .flex {
     display: flex;
     justify-content: center;
-    padding: 0 1.5rem;
+    padding: 0 1.5rem 2rem;
   }
 
   .flex>* {
@@ -53,5 +52,9 @@
 
   button:nth-of-type(2) {
     --color: rgb(136, 190, 244);
+  }
+
+  p {
+    text-align: center;
   }
 </style>

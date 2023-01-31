@@ -29,10 +29,10 @@ export class ProductosComponent {
 
   productos = [
     {nombre: 'manzanas', codigo: 'F001', precio: 70, descuento: false},
-    {nombre: 'tomates', codigo: 'V001', precio: 70, descuento: false},
-    {nombre: 'peras', codigo: 'F004', precio: 70, descuento: false},
-    {nombre: 'chirimoyas', codigo: 'F003', precio: 70, descuento: false},
-    {nombre: 'lúcumas', codigo: 'F007', precio: 70, descuento: false},
+    {nombre: 'tomates', codigo: 'V001', precio: 50, descuento: false},
+    {nombre: 'peras', codigo: 'F004', precio: 85, descuento: false},
+    {nombre: 'chirimoyas', codigo: 'F003', precio: 60, descuento: false},
+    {nombre: 'lúcumas', codigo: 'F007', precio: 95, descuento: false},
   ]
 
   displayedColumns: string[] = ['n_orden','nombre', 'codigo', 'precio','descuento','borrar'];//+++
