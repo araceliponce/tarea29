@@ -1,0 +1,31 @@
+<!-- https://material.angular.io/components/form-field/overview -->
+
+<form #loginForm="ngForm" class="login-box">
+  <h2>LOGIN</h2>
+  <mat-form-field appearance="outline">
+    <!-- floatLabel="always" (label small flotante en todo momento) -->
+    <mat-label>Nombre</mat-label>
+    <input matInput type="text" color="accent" [(ngModel)]="nom" name="nom" required autocomplete="off">
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Enter your password</mat-label>
+    <input matInput [type]="hidePass ? 'password' : 'text'" [(ngModel)]="pass" name="pass" required minlength="7">
+    <button mat-icon-button matSuffix (click)="hidePass = !hidePass" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hidePass">
+      <mat-icon>{{hidePass ? 'visibility_off' : 'visibility'}}</mat-icon>
+    </button>
+  </mat-form-field>
+
+  <button mat-flat-button color="accent" [disabled]="loginForm.invalid" (click)="login()">Ingresar</button>
+
+
+</form>
+
+<style>
+  .login-box {
+    display: grid;
+    width: min(30rem, 100%);
+    margin-inline: auto;
+    border-radius: .3rem;
+  }
+</style>

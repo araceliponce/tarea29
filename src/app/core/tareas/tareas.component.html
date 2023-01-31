@@ -1,0 +1,30 @@
+<!-- https://material.angular.io/components/list/examples -->
+
+<div class="contenedor">
+  <h2>Lista de Tareas</h2>
+  <div class="flex flex-spaced">
+    <h3>
+      Tareas realizadas: {{tareas.selectedOptions.selected.length}} de {{listado.length}}
+    </h3>
+    <!--     <mat-form-field appearance="outline">
+      <mat-label>Busca tareas</mat-label>
+      <input matInput type="text" [(ngModel)]="query" name="query" #query>
+    </mat-form-field> -->
+    <!-- ng generate pipe SearchFilter -->
+
+  </div>
+  <!-- #tareas es un referencia que usamos para contar cuantas estan seleccionadas -->
+  <mat-selection-list #tareas>
+    <mat-list-option [selected]="tarea.completed" *ngFor="let tarea of listado">
+      <span>{{tarea.id}}</span>
+      {{tarea.title}}
+    </mat-list-option>
+  </mat-selection-list>
+</div>
+
+<style>
+  .contenedor {
+    /* background-color: cornflowerblue; */
+    padding: 2rem;
+  }
+</style>
