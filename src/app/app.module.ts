@@ -8,13 +8,11 @@ import { CoreModule } from './core/core.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormComponent } from './core/form/form.component';
 import { SharedModule } from './shared/shared.module';
-import { SearchFilterPipe } from './search-filter.pipe';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    SearchFilterPipe
+    AppComponent
   ],
   imports: [
     BrowserModule,

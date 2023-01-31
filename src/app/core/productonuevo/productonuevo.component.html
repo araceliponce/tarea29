@@ -39,13 +39,19 @@
   .flex>* {
     flex: 1;
     color: rgb(30, 29, 29) !important;
+    background: var(--color);
+    transition: .2s all ease;
+  }
+
+  .flex>*:hover {
+    outline: .2rem solid var(--color);
   }
 
   button:first-of-type {
-    background-color: lightcoral;
+    --color: lightcoral;
   }
 
   button:nth-of-type(2) {
-    background-color: rgb(136, 190, 244);
+    --color: rgb(136, 190, 244);
   }
 </style>
