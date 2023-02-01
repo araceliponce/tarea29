@@ -9,6 +9,8 @@ Demo: <https://araceliponce.github.io/tarea29/>
 - MARWIN WLADIMIR GARAY MONTOYA
 - JHYM STONY HUALLA MUÑOZ
 
+---
+
 - La aplicación muestra una tabla de productos obtenida de un array de objetos
 
 ![](./src/assets/290.png)
@@ -19,10 +21,10 @@ Demo: <https://araceliponce.github.io/tarea29/>
 ![](./src/assets/291.png)
 ![](./src/assets/293.png)
 
-- Cada botón borrar permite borrar el producto ded su respectiva fila. Antes de borrarlo pide una confirmación del usuario
+- Cada botón borrar permite borrar el producto de su respectiva fila. Antes de borrarlo pide una confirmación del usuario
 
 ![](./src/assets/294.png)
 ![](./src/assets/295.png)
 
 
-Tanto después de agregar como de borrar un producto, la tabla se auto-actualiza
+Tanto después de agregar como de borrar un producto, la tabla se auto-actualiza.
