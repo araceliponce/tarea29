@@ -24,6 +24,7 @@ Demo: <https://araceliponce.github.io/tarea29/>
 - Cada botón borrar permite borrar el producto de su respectiva fila. Antes de borrarlo pide una confirmación del usuario
 
 ![](./src/assets/294.png)
+![](./src/assets/2944.png)
 ![](./src/assets/295.png)
 
 
