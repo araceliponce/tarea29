@@ -1,6 +1,15 @@
 # Tarea29
 
 Demo: <https://araceliponce.github.io/tarea29/>
+
+## Integrantes
+
+- ARACELI PONCE SANGA
+- EDILT LUZ TORIBIO FLORES
+- MARWIN WLADIMIR GARAY MONTOYA
+- JHYM STONY HUALLA MUÑOZ
+
+
 ![](./src/assets/capture.png)
 
 
