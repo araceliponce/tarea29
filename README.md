@@ -2,6 +2,12 @@
 
 Demo: <https://araceliponce.github.io/tarea29/>
 
+## Integrantes
+
+- ARACELI PONCE SANGA
+- EDILT LUZ TORIBIO FLORES
+- MARWIN WLADIMIR GARAY MONTOYA
+- JHYM STONY HUALLA MUÑOZ
 
 - La aplicación muestra una tabla de productos obtenida de un array de objetos
 
@@ -20,4 +26,3 @@ Demo: <https://araceliponce.github.io/tarea29/>
 
 
 Tanto después de agregar como de borrar un producto, la tabla se auto-actualiza
-
